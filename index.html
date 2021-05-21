@@ -25,6 +25,7 @@
 
      <!-- core style css -->
      <link rel="stylesheet" href="css/style.css" />
+     <link href="./css/component-chosen.min.css" rel="stylesheet"/> 
 
      <style>
          #more {
@@ -87,7 +88,7 @@
                              <a class="nav-link" href="javascript:void(0);" data-scroll-nav="1">O nás</a>
                          </li>
                          <li class="nav-item">
-                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="2">Naše Kola</a>
+                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="2">Elektrokola</a>
                          </li>
                          <li class="nav-item">
                             <a class="nav-link" href="javascript:void(0);" data-scroll-nav="3">Ceník</a>
@@ -109,14 +110,24 @@
                              <a class="nav-link btn theme small" href="javascript:void(0);"
                                  data-scroll-nav="4">Rezervace Kola</a>
                          </li>
+
+                         <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              CZ
+                            </a>
+                          
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <a class="dropdown-item" href="#">ČEŠTINA</a>
+                              <a class="dropdown-item" href="#">ENGLISH</a>
+                              <a class="dropdown-item" href="#">DEUTSCH</a>
+                            </div>
+                          </div>
                      </ul>
                  </div>
                  <!-- end navbar links -->
 
              </div>
-             <a href="javascript:void(0)" class="sidemenu_btn sm-display-none" id="sidebar_toggle">
-                 <span></span> <span></span> <span></span>
-             </a>
+
          </nav>
          <!-- end navbar  -->
 
@@ -128,7 +139,7 @@
                              <div class="overflow-hidden">
                                  <h3 class="title-font text-theme-color font-size28 sm-font-size18 no-margin">Víta Vás
                                  </h3>
-                                 <h1 class="banner-headline clip text-white">Půjčovna elektrokol Cube</h1>
+                                 <h1 class="banner-headline clip text-white">Půjčovna elektrokol Železná Ruda</h1>
                                  <p class="margin-30px-bottom sm-margin-20px-bottom xs-display-none text-white">
                                      Navštivte naši pobočku přímo v centru Železné Rudy.</p>
                                  <a href="javascript:void(0);" data-scroll-nav="2" class="btn theme">Zobrazit více</a>
@@ -351,7 +362,7 @@
 
              <div class="section-heading">
                  <div class="title-font font-size22 text-theme-color">Vyberte si to svoje</div>
-                 <h3 class="font-size24 text-uppercase">Naše kola</h3>
+                 <h3 class="font-size24 text-uppercase">Elektrokolo</h3>
              </div>
 
              <div class="horizontaltab tab-style">
@@ -361,14 +372,14 @@
                              class="display-block text-uppercase font-size12 sm-font-size11">HORSKÁ</span>
                          <span class="display-block xs-display-inline-block text-uppercase alt-font font-weight-700">ELEKTROKOLA</span>
                      </li>
-                     <li> <span
+                    <!-- <li> <span
                              class="display-block text-uppercase font-size12 sm-font-size11">HORSKÁ</span>
                          <span class="display-block xs-display-inline-block text-uppercase alt-font font-weight-700">KOLA</span>
                      </li>
                      <li> <span
                         class="display-block text-uppercase font-size12 sm-font-size11">Naše</span>
                           <span class="display-block xs-display-inline-block text-uppercase alt-font font-weight-700">DOPLŇKY</span>
-                      </li>
+                      </li> -->
                      <li> <span
                        class="display-block text-uppercase font-size12 sm-font-size11">Tabulka</span>
                          <span class="display-block xs-display-inline-block text-uppercase alt-font font-weight-700">VELIKOSTÍ</span>
@@ -470,351 +481,9 @@
                                      </ul>
                                  </div>
                              </div>
-                             <!--
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">KOLO 4</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$75</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">avocado, crispy iceberg lettuce and roma tomatoes</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div> -->
                          </div>
-
-
                      </div>
-                     <div>
-
-                         <div class="row">
-                             <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                 <div
-                                     class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                     <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">HORSKÉ
-                                         KOLO</div>
-                                     <p class="width-95 xs-width-100">Připravujeme</p>
-                                     <div class="price-label bg-theme text-white alt-font"><span>-----</span></div>
-                                     <ul class="no-margin text-uppercase font-size12">
-                                         <li>
-                                             <span class="font-weight-700 text-theme-color">DOSTUPNÉ VELIKOSTI
-                                                 RÁMU</span>
-                                             <span class="border-left padding-10px-left margin-10px-left">-----</span>
-                                         </li>
-                                     </ul>
-                                 </div>
-                             </div>
-                             <!--
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">KOLO 2</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$53</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Chicken and a Belgian waffle with a sweet</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">KOLO 3</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$73</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Canadian bacon, sliced avocado, and tomato.</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">KOLO 4</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$87</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Two poached eggs and homemade crab cakes.</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">KOLO 5</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$99</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">bacon, sausage patties, sausage links, turkey</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div>
-
-                        <div class="row">
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Chicken With Pears</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$23</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">White wine, wedges, black pepper, chicken breasts</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Crumb Broccoli</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$34</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Unsalted butter, whole-wheat bread, parmesan</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Orzo Salad</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$45</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Asparagus, trimmed, red onion, vinaigrette</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Miso Dressing</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$45</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">white miso, cherry, grape, or pear tomatoes, halved </span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Grilled Zucchini</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$67</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Medium zucchini, sliced lengthwise, red pepper</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div>
-
-                        <div class="row">
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Pork Medallions</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$23</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">maple syrup, Dijon mustard, tenderloin, trimmed</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Long Beans</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$57</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Ggreen beans, peanut oil, orange juice, butter</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Beer-Brined</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$36</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Black peppercorns, turkey, yellow onion,shallots</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Spicy Tropical</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$46</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Diced pineapple, kiwi, grated lime zest, sea salt</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Focaccia</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$67</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Olive oil, bread flour, Flaky sea salt, salt</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Raisin Pizza</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$89</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Apples, peeled ,diced, raw sugar, cinnamon</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div>
-
-                        <div class="row">
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Broccoli Balls</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$10</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Grated broccoli, chopped onion, dried basil</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Grain Crackers</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$21</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">wheat flour, sesame seeds, mixed herbs like oregano</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 sm-margin-20px-bottom">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Momos</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$33</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Flour, pepper, broccoli, bean sprouts, chopped</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">Chicken Poppers</div>
-                                    <p class="width-95 xs-width-100">Cafe ut restaurants unde omnis iste natus error sit voluptatem totam rem aperiam, eaque illo inventore veritatis.</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>$23</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color">Ingredients</span>
-                                            <span class="border-left padding-10px-left margin-10px-left">Boneless chicken, cubed, eggs, dried oregano</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            -->
-                        
-                         </div>
-                         
-                     </div>
-                     <div>
-                        <div class="row">
-                            <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
-                                <div
-                                    class="border position-relative padding-20px-all bg-white padding-70px-right md-padding-60px-right">
-                                    <div class="alt-font font-weight-700 margin-8px-bottom xs-margin-5px-bottom">
-                                        --</div>
-                                    <p class="width-95 xs-width-100">Připravujeme</p>
-                                    <div class="price-label bg-theme text-white alt-font"><span>-----</span></div>
-                                    <ul class="no-margin text-uppercase font-size12">
-                                        <li>
-                                            <span class="font-weight-700 text-theme-color"></span>
-                                            <span class="border-left padding-10px-left margin-10px-left">-----</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                     </div>
-                     <div>
-                        
+                     <div>   
                             <div class="parent1">
                                 <div class="diva">Velikost rámu</div>
                                 <div class="divb">Výška postavy</div>
@@ -826,8 +495,7 @@
                                 <div class="divh">170-185cm</div>
                                 <div class="divch">XL</div>
                                 <div class="divi">nad 185cm</div>
-                                </div>
-                        
+                                </div>    
                      </div>
                  </div>
              </div>
@@ -849,21 +517,14 @@
              </div>
              <div class="parent">
                  <div class="div1">Horská Elektrokola</div>
-                 <div class="div2">Horská Kola</div>
-                 <div class="div3">1 Den</div>
-                 <div class="div4">2 Dny</div>
-                 <div class="div5">3 Dny</div>
-                 <div class="div6">1 Den</div>
-                 <div class="div7">2 Dny</div>
-                 <div class="div8">3 Dny</div>
-                 <div class="div9">800,-</div>
-                 <div class="div10">1500,-</div>
-                 <div class="div11">2200,-</div>
-                 <div class="div12">200,-</div>
-                 <div class="div13">400,-</div>
-                 <div class="div14">550,-</div>
+                 <div class="div2">1 Den</div>
+                 <div class="div3">2 Dny</div>
+                 <div class="div4">3 Dny</div>
+                 <div class="div5">800,-</div>
+                 <div class="div6">1500,-</div>
+                 <div class="div7">2200,-</div>
              </div>
-             <p style="text-align: center; margin-top: 25px; color:rgba(255, 255, 255, 0.801);">Vratná kauce za každé elektrokolo je 3000kč, vratná kauce za každé kolo je 1000kč.</p>
+             <p style="text-align: center; margin-top: 25px; color:rgba(255, 255, 255, 0.801);">Vratná kauce za každé elektrokolo je 3000kč.</p>
              <p style="text-align: center; color:rgba(255, 255, 255, 0.801);"><b>ZDARMA</b> ke každému kolu Vám vypujčíme helmu a bezpečnostní zámek.</p>
              <p style="text-align: center; color:rgba(255, 255, 255, 0.801);"><b>Podmínky vypůjčení</b> - K zapůjčení je třeba předložit 2 platné doklady totožnosti (OP,ŘP a nebo PAS).</p>
              <p style="text-align: center; color:rgba(255, 255, 255, 0.801);">Využijte naší věrnostní kartičku a na každé páté půjčení kola získáte <b>50% SLEVU</b>.</p>
@@ -972,25 +633,26 @@
                              <h4 class="text-white opacity9">Rezervujte si kolo online nebo po telefonu 731 817 383</h4>
                          </div>
                          <form action="https://formspree.io/f/xleaenwn" method="Post" id="my-form" name="my-form" onsubmit="return validateForm()">
-                             <div class="col-md-12">
+                             <div class="col-md-12 pl-0">
                                  <input type="text" id="jmeno" name="Jmeno" placeholder="Jméno a Příjmení"
                                      data-constraints='@NotEmpty'>
                              </div>
-                             <div class="col-md-12">
+                             <div class="col-md-12 pl-0">
                                  <input type="email" id="email" name="Email" placeholder="Email"
                                      data-constraints='@NotEmpty'>
                              </div>
-                             <!--<div class="col-md-12">
-                                 <select style="color:gray">
-                                     <option value="" disabled selected>Vyberte kolo</option>
-                                     <option value="Pro21" name="Pro21">Cube reaction hybrid Pro 29"(Rám 21)</option>
-                                     <option value="Pro19" name="Pro19">Cube reaction hybrid Pro 29"(Rám 19)</option>
-                                     <option value="Pro15" name="Pro15">Cube reaction hybrid Pro 29"(Rám 15)</option>
-                                     <option value="Ext17" name="Ext17">Cube Access Hybrid EXC 29"(Rám 17)</option>
-                                     <option value="Race19" name="Race19">Cube Reaction Hybrid Race 29"(Rám 19)</option>
-                                 </select>
-                             </div>-->
-                             <div class="col-md-12">
+                             <div class="col-md-12 pl-0">
+                                <select data-placeholder="Vyberte kolo" multiple id="chosen-select" name="bikes" class="form-control form-control-chosen">
+                                    <option value="Pro21" name="Pro21">Cube Reaction Hybrid Pro 29"(Rám XL)</option>
+                                    <option value="Pro19" name="Pro19">Cube Reaction Hybrid Pro 29"(Rám L)</option>
+                                    <option value="Pro15" name="Pro15">Cube Reaction Hybrid Pro 29"(Rám S)</option>
+                                    <option value="Race19" name="Race19">Cube Reaction Hybrid Race 29"(Rám L)</option>
+                                    <option value="Ext17" name="Ext17">Cube Access Hybrid EXC 29"(Rám M)</option>
+                                    <option value="Ext17" name="Ext17_2">Cube Access Hybrid EXC 29"(Rám M)</option>
+                                </select>
+                             </div>
+                             <div style="margin-bottom:15px;"></div>
+                             <div class="col-md-12 pl-0">
                                  <div class="row">
                                      <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                          <input type="tel" id="phone" name="Telefon" placeholder="Telefon"
@@ -1002,7 +664,7 @@
                                      </div>
                                  </div>
                              </div>
-                             <div class="col-md-12">
+                             <div class="col-md-12 pl-0">
                                  <div class="row">
                                      <div class="col-md-6 no-padding-right xs-padding-15px-right">
                                          <input type="text" name="date" placeholder="Datum" data-provide="datepicker"
@@ -1014,11 +676,16 @@
                                      </div>
                                  </div>
                              </div>
-                             <div class="col-md-12">
-                                 <textarea name="message" rows="5" placeholder="Zde nám napište typ a velikost kola, děkujeme." data-constraints='@NotEmpty'></textarea>
+                             <div class="col-md-12 pl-0">
+                                 <textarea name="message" rows="3" placeholder="Poznámka" data-constraints='@NotEmpty'></textarea>
+                                 <div class="custom-control custom-checkbox" style="margin-bottom:15px;">
+                                    <input type="checkbox" class="custom-control-input" id="customControlInline" required>
+                                    <label class="custom-control-label" for="customControlInline">Souhlasím s <a target="_blank" href="index.html"><i><b style="color: #0eac00;">podmínkami</b></i></a> vypůjčení.</label>
+                                 </div>
                              </div>
-                             <div class=" col-md-12">
-                                 <button type="submit" class="btn book-now">REZERVOVAT NYNÍ</button>
+                             
+                             <div class=" col-md-12 pl-0">
+                                 <button type="submit" class="btn book-now w-100">REZERVOVAT NYNÍ</button>
                              </div>
                          </form>
                          <div id="status"></div>
@@ -1336,7 +1003,7 @@
                          </div>
                          <p class="no-margin-bottom width-45 md-width-65 xs-width-100 text-center center-col">Javorská
                              23, 340 04 Železná Ruda, Česko</p>
-                        <p style="margin-bottom:0px;" class="mapa" onclick="window.open('https://www.google.cz/maps/place/Rezidence+Javor/@49.1370606,13.2329537,20.35z/data=!4m5!3m4!1s0x47752f7739c4f5f9:0x48a2c42b6e429a77!8m2!3d49.1370111!4d13.2330523')">Zobrazit mapu</p>
+                        <p style="margin-bottom:0px;" class="mapa" onclick="window.open('https://www.google.cz/maps/place/P%C5%AFj%C4%8Dovna+elektrokol+RentBikes/@49.1370637,13.2325307,19z/data=!3m1!4b1!4m5!3m4!1s0x47752f18487d8ba3:0x1aff243f377df315!8m2!3d49.1371031!4d13.2330886')">Zobrazit mapu</p>
                      </div>
 
                      <div class="col-md-4 xs-margin-20px-bottom">
@@ -1345,7 +1012,7 @@
                              class="separator-line-verticle-small-thick bg-theme center-col margin-10px-top margin-20px-bottom xs-margin-15px-bottom width-15">
                          </div>
                          <p class="no-margin-bottom width-85 md-width-100 text-center center-col"><strong>Pondělí -
-                                 Neděle:</strong> 7:30 - 17:00</p>
+                                 Neděle:</strong> 9:00 - 18:00</p>
                      </div>
 
                      <div class="col-md-4">
@@ -1376,8 +1043,10 @@
                      <!-- start social media link -->
                      <div class="col-md-6 text-right xs-text-center">
                          <div class="footer-social">
-                             <a href="https://instagram.com/rentbikes_sumava?igshid=199wjrics58z2"><i
+                            <a target="_blank" href="https://www.instagram.com/rentbikes_sumava"><i
                                      class="fab fa-instagram"></i></a>
+                            <a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a>
+                            <a href="javascript:void(0);"><i class="fab fa-youtube"></i></a>
                          </div>
                      </div>
                      <!-- end social media link -->
@@ -1439,8 +1108,6 @@
 
      <script src="js/formular.js"></script>
 
-     <script src="js/overeni.js"></script>
-
      <!-- map -->
      <script src="js/map.js"></script>
      <script
@@ -1453,7 +1120,8 @@
      <!-- contact form scripts -->
      <script src="js/mailform/jquery.form.min.js"></script>
      <script src="js/mailform/jquery.rd-mailform.min.c.js"></script>
-
+     <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+     
      <!-- all js include end -->
 
      <script>
@@ -1508,7 +1176,20 @@
                  moreText.style.display = "inline";
              }
          }
+         $(document).ready(()=>{
+            $("#chosen-select").chosen({
+                no_results_text: "Oops, nothing found!"
+            })
+         })
      </script>
+     <style>
+         .chosen-container-multi .chosen-choices{
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+         }
+     </style>
 
 
  </body>

@@ -1628,6 +1628,11 @@ h2.resp-accordion.resp-tab-active {
     z-index: 2;
     transform: translateY(10px); }
 
+
+  .bike-specs li {
+    margin-left: 30px;
+    list-style-type: disc;
+ }
 /*============================== 
     Owl Sliders
 ================================*/

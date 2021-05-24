@@ -81,6 +81,7 @@ Table of contents
   animation: loader-rotate 1s linear infinite;
   margin: 0 auto; }
 
+
 @keyframes loader-rotate {
   0% {
     transform: rotate(0); }

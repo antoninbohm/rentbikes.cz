@@ -733,7 +733,12 @@ a:hover, a:active {
   padding: 15px 0;
   width: 200px; }
 
-
+.terms-link{
+  color: rgb(196, 196, 196);
+}
+.terms-link :hover{
+  color: #0eac00;
+}
 
 .ig:hover{
   font-weight: bold;

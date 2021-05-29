@@ -51,6 +51,7 @@ Table of contents
   width: 200px;
   height: 200px; }
 
+
   .parent {
   display: grid;
   margin:auto;
@@ -287,7 +288,7 @@ a:hover, a:active {
     Section heading
 ====================================== */
 .section-heading {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center; }
   .section-heading.half {
     margin-bottom: 30px; }
@@ -317,7 +318,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 1199px) {
   .section-heading {
-    margin-bottom: 40px; }
+    margin-bottom: 20px; }
     .section-heading h1, .section-heading h2, .section-heading h3, .section-heading h4, .section-heading h5, .section-heading h6 {
       font-size: 22px; }
     .section-heading.half {

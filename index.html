@@ -36,27 +36,6 @@
      <link rel="stylesheet" href="css/style.css" />
      <link href="css/component-chosen.min.css" rel="stylesheet" />
 
-
-
-     <style>
-         #more {
-             display: none;
-         }
-
-         #more2 {
-             display: none;
-         }
-
-         #more3 {
-             display: none;
-         }
-
-         .cudlik:hover {
-             transform: scale(1.05);
-             cursor: pointer;
-         }
-     </style>
-
  </head>
 
  <body>
@@ -103,13 +82,7 @@
                          <li class="nav-item">
                              <a class="nav-link" href="javascript:void(0);" data-scroll-nav="3">Ceník</a>
                          </li>
-                         <!--<li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="3">Our Chef</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="javascript:void(0);" data-scroll-nav="5">Gallery</a>
-                        </li>
-                        -->
+
                          <li class="nav-item">
                              <a class="nav-link" href="javascript:void(0);" data-scroll-nav="6">Trasy</a>
                          </li>
@@ -121,18 +94,31 @@
                                  data-scroll-nav="4">Rezervace Kola</a>
                          </li>
 
-                         <div class="dropdown">
-                             <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                         <div class="d-flex flex-row justify-content-center">
+                            <li class="nav-item d-block d-sm-none">
+                                <a class="nav-link" href="index.html">ČEŠTINA</a>
+                            </li>
+                            <li class="nav-item d-block d-sm-none">
+                                <a class="nav-link" href="en/index.html">ENGLISH</a>
+                            </li>
+                            <li class="nav-item d-block d-sm-none">
+                                <a class="nav-link" href="de/index.html">DEUTSCH</a>
+                            </li>
+                         </div>
+                         
+
+                         <div class="dropdown d-none d-lg-block">
+                             <a class="nav-link dropdown-toggle" role="button" id="dropdownMenuLink"
                                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                  CZ
                              </a>
 
                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                  <a class="dropdown-item" href="index.html">ČEŠTINA</a>
-                                 <a class="dropdown-item" href="/en/index.html">ENGLISH</a>
-                                 <a class="dropdown-item" href="/de/index.html">DEUTSCH</a>
+                                 <a class="dropdown-item" href="en/index.html">ENGLISH</a>
+                                 <a class="dropdown-item" href="de/index.html">DEUTSCH</a>
                              </div>
-                         </div>
+                         </div> 
                      </ul>
                  </div>
                  <!-- end navbar links -->
@@ -251,16 +237,8 @@
                  <div class="col-xl-5 col-lg-5">
                      <div class="callto-action-imgbox md-margin-30px-right">
 
-                         <!-- start play button 
-                        <div class="play-button-wrapper story-video">
-                            <a href="video/pasta-burrata.mp4" class="btn-play video">
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
-                        end play button -->
-
                          <img src="img/about-story.jpg" alt="about story"
-                             class="border border-width-8 width-100 border-color-light-black" />
+                             class="border border-width-8 width-100 border-color-light-black " />
                      </div>
                  </div>
                  <div class="col-xl-6 col-lg-7 offset-xl-1 offset-lg-0">
@@ -394,14 +372,6 @@
                          <span
                              class="display-block xs-display-inline-block text-uppercase alt-font font-weight-700">ELEKTROKOLA</span>
                      </li>
-                     <!-- <li> <span
-                             class="display-block text-uppercase font-size12 sm-font-size11">HORSKÁ</span>
-                         <span class="display-block xs-display-inline-block text-uppercase alt-font font-weight-700">KOLA</span>
-                     </li>
-                     <li> <span
-                        class="display-block text-uppercase font-size12 sm-font-size11">Naše</span>
-                          <span class="display-block xs-display-inline-block text-uppercase alt-font font-weight-700">DOPLŇKY</span>
-                      </li> -->
                      <li> <span class="display-block text-uppercase font-size12 sm-font-size11">Tabulka</span>
                          <span
                              class="display-block xs-display-inline-block text-uppercase alt-font font-weight-700">VELIKOSTÍ</span>
@@ -413,7 +383,7 @@
                          <div class="row">
                              <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
                                  <div
-                                     class="border position-relative padding-20px-all bg-white padding-20px-right md-padding-20px-right">
+                                     class="border position-relative padding-20px-all bg-white padding-20px-right md-padding-20px-right rounded">
                                      <div class="alt-font font-size16 font-weight-700 margin-8px-bottom xs-margin-5px-bottom"
                                          style="margin-bottom: 15px; text-align: center;">Cube Reaction Hybrid Pro</div>
                                      <img src="img/bikes/cubePRO.jpg" alt="Kolo Cube Pro" style="margin-bottom: 15px;">
@@ -445,7 +415,7 @@
                              </div>
                              <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
                                  <div
-                                     class="border position-relative padding-20px-all bg-white padding-20px-right md-padding-20px-right">
+                                     class="border position-relative padding-20px-all bg-white padding-20px-right md-padding-20px-right rounded">
                                      <div class="alt-font font-size16 font-weight-700 margin-8px-bottom xs-margin-5px-bottom"
                                          style="margin-bottom: 15px; text-align: center;">Cube Access Hybrid EXC</div>
                                      <img src="img/bikes/cubeEXC.jpg" alt="Kolo Cube EXC" style="margin-bottom: 15px;">
@@ -476,9 +446,9 @@
                              </div>
                          </div>
                          <div class="row">
-                             <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom">
+                             <div class="col-md-6 margin-30px-bottom sm-margin-20px-bottom rounded">
                                  <div
-                                     class="border position-relative padding-20px-all bg-white padding-20px-right md-padding-20px-right">
+                                     class="border position-relative padding-20px-all bg-white padding-20px-right md-padding-20px-right rounded">
                                      <div class="alt-font font-size16 font-weight-700 margin-8px-bottom xs-margin-5px-bottom"
                                          style="margin-bottom: 15px; text-align: center;">Cube Reaction Hybrid Race
                                      </div>
@@ -673,16 +643,11 @@
                  <!-- start blog -->
                  <div class="col-lg-4 sm-margin-20px-bottom">
                      <div class="item text-center">
-                         <div class="post-img">
+                         <div class="post-img rounded-top">
                              <a href="404.html"><img src="img/blog/3.jpg" alt="Mapa"></a>
                          </div>
-                         <div class="content sm-padding-20px-all">
-                             <h6 class="font-size16 sm-font-size15 xs-font-size14"><a href="404.html">Již brzy</a></h6>
-                             <!-- <div class="author">
-                                <span class="font-size12 display-inline-block">by <a href="javascript:void(0);">Jaydev makhansra</a>&nbsp;&nbsp;|&nbsp;&nbsp;02 May 2018</span>
-                            </div>
-                            <p class="margin-20px-tb sm-margin-15px-tb xs-margin-10px-tb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
-                            <a href="single-post.html" class="read-more">Read more</a> -->
+                         <div class="content sm-padding-20px-all rounded-bottom">
+                             <h6 class="font-size16 sm-font-size15 xs-font-size14 text-center"><a href="404.html">Pancíř a Černé jezero</a></h6>
                          </div>
                      </div>
                  </div>
@@ -691,18 +656,12 @@
                  <!-- start blog -->
                  <div class="col-lg-4 sm-margin-20px-bottom">
                      <div class="item text-center">
-                         <div class="post-img">
+                         <div class="post-img rounded-top">
                              <a href="404.html"><img src="img/blog/2.jpg" alt="Mapa"></a>
                          </div>
-                         <div class="content sm-padding-20px-all">
+                         <div class="content sm-padding-20px-all rounded-bottom">
 
-                             <h6 class="font-size16 sm-font-size15 xs-font-size14"><a href="404.html">Již brzy</a></h6>
-                             <!-- <div class="author">
-                                <span class="font-size12 display-inline-block">by <a href="javascript:void(0);">John kairliya</a>&nbsp;&nbsp;|&nbsp;&nbsp;11 April 2018</span>
-                            </div>
-
-                            <p class="margin-20px-tb sm-margin-15px-tb xs-margin-10px-tb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            <a href="single-post.html" class="read-more">Read more</a> -->
+                             <h6 class="font-size16 sm-font-size15 xs-font-size14 text-center"><a href="404.html">Černé jezero a Nýrsko</a></h6>
                          </div>
                      </div>
                  </div>
@@ -711,16 +670,11 @@
                  <!-- start blog -->
                  <div class="col-lg-4">
                      <div class="item text-center">
-                         <div class="post-img">
+                         <div class="post-img rounded-top">
                              <a href="404.html"><img src="img/blog/1.jpg" alt="Mapa"></a>
                          </div>
-                         <div class="content sm-padding-20px-all">
-                             <h6 class="font-size16 sm-font-size15 xs-font-size14"><a href="404.html">Již brzy</a></h6>
-                             <!-- <div class="author">
-                                <span class="font-size12 display-inline-block">by <a href="javascript:void(0);">Jay Benjamin</a>&nbsp;&nbsp;|&nbsp;&nbsp;04 March 2018</span>
-                            </div>
-                            <p class="margin-20px-tb sm-margin-15px-tb xs-margin-10px-tb">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                            <a href="single-post.html" class="read-more">Read more</a> -->
+                         <div class="content sm-padding-20px-all rounded-bottom">
+                             <h6 class="font-size16 sm-font-size15 xs-font-size14 text-center"><a href="404.html">Prášily a Modrava</a></h6>
                          </div>
                      </div>
                  </div>
@@ -745,7 +699,7 @@
                              <div class="card bg-transparent border-0">
                                  <div class="card-header p-2 bg-transparent border-0" id="headingOne">
                                      <h5 class="mb-0">
-                                         <button class="btn btn-block rounded-0" type="button"
+                                         <button class="btn btn-block rounded" type="button"
                                              style="white-space: normal;" data-toggle="collapse"
                                              data-target="#collapseOne" aria-expanded="true"
                                              aria-controls="collapseOne">
@@ -767,7 +721,7 @@
                              <div class="card bg-transparent border-0">
                                  <div class="card-header p-2 bg-transparent border-0" id="headingTwo">
                                      <h5 class="mb-0">
-                                         <button class="btn btn-block collapsed rounded-0" type="button"
+                                         <button class="btn btn-block collapsed rounded" type="button"
                                              style="white-space: normal;" data-toggle="collapse"
                                              data-target="#collapseTwo" aria-expanded="false"
                                              aria-controls="collapseTwo">
@@ -788,7 +742,7 @@
                              <div class="card bg-transparent border-0">
                                  <div class="card-header p-2 bg-transparent border-0" id="headingThree">
                                      <h5 class="mb-0">
-                                         <button class="btn btn-block collapsed rounded-0" style="white-space: normal;"
+                                         <button class="btn btn-block collapsed rounded" style="white-space: normal;"
                                              type="button" data-toggle="collapse" data-target="#collapseThree"
                                              aria-expanded="false" aria-controls="collapseThree">
                                              Mohu jezdit na elektrokole za deště?
@@ -807,7 +761,7 @@
                              <div class="card bg-transparent border-0">
                                  <div class="card-header p-2 bg-transparent border-0" id="headingFour">
                                      <h5 class="mb-0">
-                                         <button class="btn btn-block collapsed rounded-0" style="white-space: normal;"
+                                         <button class="btn btn-block collapsed rounded" style="white-space: normal;"
                                              type="button" data-toggle="collapse" data-target="#collapseFour"
                                              aria-expanded="false" aria-controls="collapseThree">
                                              Co všechno je v ceně půjčovného?
@@ -827,7 +781,7 @@
                              <div class="card bg-transparent border-0">
                                  <div class="card-header p-2 bg-transparent border-0" id="headingFive">
                                      <h5 class="mb-0">
-                                         <button class="btn btn-block collapsed rounded-0" style="white-space: normal;"
+                                         <button class="btn btn-block collapsed rounded" style="white-space: normal;"
                                              type="button" data-toggle="collapse" data-target="#collapseFive"
                                              aria-expanded="false" aria-controls="collapseThree">
                                              Mohu elektrokolo vrátit po zavírací době?
@@ -844,7 +798,7 @@
                              <div class="card bg-transparent border-0">
                                  <div class="card-header p-2 bg-transparent border-0" id="headingSix">
                                      <h5 class="mb-0">
-                                         <button class="btn btn-block collapsed rounded-0" style="white-space: normal;"
+                                         <button class="btn btn-block collapsed rounded style="white-space: normal;"
                                              type="button" data-toggle="collapse" data-target="#collapseSix"
                                              aria-expanded="false" aria-controls="collapseThree">
                                              Jak funguje elektrokolo?

@@ -2,3 +2,7 @@ User-agent: *
 Disallow: /404.html
 Disallow: /terms.html
 Disallow: /private
+Disallow: /css
+Disallow: /fonts
+Disallow: /img
+Disallow: /js

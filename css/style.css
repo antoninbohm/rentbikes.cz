@@ -2058,6 +2058,12 @@ h2.resp-accordion.resp-tab-active {
   cursor: pointer;
 }
 /*============================== 
+    Meta styling
+================================*/
+.meta li{
+  padding: 12px;
+}
+/*============================== 
     Countdown coming soon page
 ================================*/
 .coming-soon .social-links li {

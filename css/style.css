@@ -1786,6 +1786,10 @@ h2.resp-accordion.resp-tab-active {
   .blogs .posts .pagination li:first-child a {
     border-left-width: 1px; }
 
+    .meta li{
+      padding: 10px;
+    }
+
 /* blog list-simple */
 .blog-list-simple {
   margin: 0 0 30px 0;
@@ -2056,6 +2060,12 @@ h2.resp-accordion.resp-tab-active {
 .mapa:hover{
   color: #0eac00;
   cursor: pointer;
+}
+/*============================== 
+    Meta styling
+================================*/
+.meta li{
+  padding: 12px;
 }
 /*============================== 
     Countdown coming soon page
